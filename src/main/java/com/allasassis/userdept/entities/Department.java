@@ -9,12 +9,6 @@ public class Department {
 		
 	}
 
-	public Department(Long id, String name) {
-		super();
-		this.id = id;
-		this.name = name;
-	}
-
 	public String getName() {
 		return name;
 	}
@@ -25,6 +19,10 @@ public class Department {
 
 	public Long getId() {
 		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
 	}
 	
 	
